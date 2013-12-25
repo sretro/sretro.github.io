@@ -1,0 +1,23 @@
+---
+layout: home
+---
+
+<div class="contentBox">
+	<ul class="blogContent">
+		{% for post in site.posts %}
+			<li>
+				<time>{{ post.time }}</time>
+				<h1><a href="{{ post.url }}">{{post.title}}</a></h1>
+				<p>
+					{{ post.description }}
+				</p>
+				{{ post.img }}
+			</li>
+		{% endfor %}
+    </ul>
+</div>
+<script>
+$(document).ready(function(){
+	$("#blog").addClass("current").siblings().removeClass("current");
+})
+</script>
