@@ -7,6 +7,5 @@ permalink: /:title
 
 title: sretro
 
-feed: /atom.xml
 
 encoding: utf-8
