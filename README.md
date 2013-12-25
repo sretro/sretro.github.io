@@ -1,3 +1,0 @@
-sretro.github.io
-================
-blog
