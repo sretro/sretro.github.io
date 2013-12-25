@@ -5,8 +5,8 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: BeiYuu.com
-url: http://beiyuu.com
+title: sretro
+
 feed: /atom.xml
-author_info: <a href="http://beiyuu.com/">BeiYuu</a>
+
 encoding: utf-8

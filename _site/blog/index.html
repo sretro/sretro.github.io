@@ -19,13 +19,24 @@
     </ul>
 </div>
 <div class="contentBox">
-	<header>
-    	<h1>welcome</h1>
-    </header>
-    <div class="content">
-    	<img src="../images/index_17.png">
-    </div>
+	<ul class="blogContent">
+		
+			<li>
+				<time>Doc 25 2014</time>
+				<h1><a href="/ceshi">测试</a></h1>
+				<p>
+					终于搭建好了，在本地试了下妥妥的，尝试一下git托管
+				</p>
+				<img src="../images/blog/ceshi.jpg">
+			</li>
+		
+    </ul>
 </div>
+<script>
+$(document).ready(function(){
+	$("#blog").addClass("current").siblings().removeClass("current");
+})
+</script>
 
 
 </body>
