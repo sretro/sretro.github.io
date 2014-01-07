@@ -4,13 +4,13 @@ body{background:url(../images/background-green.png) repeat !important;}
 .topNav li:frist-child{margin-left:200px;}
 .topNav li a{text-align:center;color:#fff;font-size:14px;line-height:45px;height:45px;display:block;}
 .topNav li a:hover{background:url(../images/page_03.png) repeat-x;}
-.postContent{padding:30px;color:#000;width:870px;background:#fff;margin:100px auto; box-shadow:5px 5px 10px  #494949;}
+.postContent{padding:30px;color:#000;width:1024px;background:#fff;margin:100px auto; box-shadow:5px 5px 10px  #494949;}
 .postContent h1{text-align:center;}
 .postContent .time{text-align:center;color:#6e6e6e;}
 .postComment{margin:0 auto;text-align: center;padding-bottom: 50px;}
 .enterContent{margin-bottom:30px;}
 .enterContent p,h1,h3,h4,h2,li{margin-bottom: 40px;line-height: 1.8em;}
 .enterContent li{margin-bottom: 5px;list-style: disc;line-height: 1.8em;}
-.enterContent img{margin:10px 0;max-width:840px;max-height:480px;}
+.enterContent img{margin:10px 0;max-width:1024px;}
 .enterContent ul{margin-bottom: 25px;margin-left: 25px;}
 .enterContent p+ul {margin-top: -20px;}
